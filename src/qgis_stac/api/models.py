@@ -59,6 +59,7 @@ class AssetLayerType(enum.Enum):
     GEOTIFF = 'image/tiff; application=geotiff'
     GEOJSON = 'application/geo+json'
     GEOPACKAGE = 'application/geopackage+sqlite3'
+    PARQUET = 'application/x-parquet'
     VECTOR = 'ogr'
     NETCDF = 'application/netcdf; application/x-netcdf'
 
